@@ -21,7 +21,7 @@ function validateName(){
 }
 
 function validateEmail(){
-    const exp = /^(201[0-9]((BPR)|(bpr))[0-9]{3})@sggs.ac.in$/;
+    const exp = /^(201[0-9]((BCS)|(bcs)|(BPR)|(bpr)|(BIT)|(bit)|(BCH)|(bch))[0-9]{3})@sggs.ac.in$/;
     if(!exp.test(email.value)){
         email.classList.add('is-invalid');
     }
