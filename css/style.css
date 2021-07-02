@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    background-color: rgb(173, 172, 172);
     font-family: 'Solway', serif;
     background-attachment: fixed;
 }
@@ -10,4 +10,14 @@ body{
     display: flex;justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+  
+.form-control::-webkit-input-placeholder { color: rgb(214, 212, 212) }
+  
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
