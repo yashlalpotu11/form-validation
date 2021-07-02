@@ -1,0 +1,13 @@
+body{
+    background-color: burlywood;
+    font-family: 'Solway', serif;
+    background-attachment: fixed;
+}
+#row{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
