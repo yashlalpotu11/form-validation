@@ -27,7 +27,70 @@
         <div class="col-lg-4 col-11 rounded bg-white p-4">
             <h2>Create Account</h2>
             <hr/>
+            <form name="contact" method="POST" data-netlify="true">
+              <div id="alert" class="m-2 rounded text-center"></div>
+              <div class="form-group">
+                <label for="">Name</label>
+                <input
+                 type="text"
+                 name = "name"
+                 class="form-control"
+                 id="name"
+                 placeholder="Yash Lalpotu"
+                 autocomplete="off"
+                 />
+                 <div class="invalid-feedback">
+                     Name must be between 2 and 15 characters
+                 </div>
+              </div>
+              <div class="form-group">
+                <label for="">Email</label>
+                <input
+                 type="text"
+                 name = "email"
+                 class="form-control"
+                 id="email"
+                 placeholder="2019bpr050@sggs.ac.in"
+                 autocomplete="off"
+                 />
+                 <div class="invalid-feedback">
+                     Invalid Email
+                 </div>
+              </div>
+              <div class="form-group">
+                <label for="">Registration No.</label>
+                <input
+                 type="text"
+                 name = "RegNo"
+                 class="form-control"
+                 id="registration"
+                 placeholder="2019BPR050"
+                 autocomplete="off"
+                 />
+                 <div class="invalid-feedback">
+                     Invalid Registration No.
+                 </div>
+              </div><div class="form-group">
+                <label for="">Mobile No.</label>
+                <input
+                 type="number"
+                 name = "phoneno"
+                 class="form-control"
+                 id="phone"
+                 placeholder="902*******"
+                 autocomplete="off"
+                 />
+                 <div class="invalid-feedback">
+                     Invalid Mobile No.
+                 </div>
+                 <div class="form-group">
+                      <div data-netlify-recaptcha="true"></div>
+                 </div>
+              </div>
+              <button type="submit" id="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
         </div>
     </div>
+    <script src="js/app.js"></script>
 </body>
 </html>
